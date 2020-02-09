@@ -7,7 +7,7 @@ $list = $data['movie'];
 
 ?>
 
-<h1>Movies </h1>
+<h1>  Movies </h1>
 
 <table border="1px">
     <tr>
