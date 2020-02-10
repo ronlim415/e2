@@ -11,7 +11,7 @@ class movie{
 		}
 	}
 	
-	public function get_browser(){
+	public function get_movie(){
 		$sql = "SELECT * FROM tbltitle";
 		$result = mysqli_query($this->database,$sql);
 		while($row = mysqli_fetch_assoc($result)){
