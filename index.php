@@ -2,7 +2,7 @@
 $json = file_get_contents("https://exe2.herokuapp.com/json.php");
 
 $data = json_decode($json,true);
-$list = $data['movie'];
+$list = $data['title'];
 
 
 ?>
